@@ -1,0 +1,17 @@
+# Env (secrets – use .env.example as template)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules
+venv
+innovaite_2026-master/venv
+
+# Build
+dist
+
+# Python
+**/__pycache__
+**/*.pyc
+**/myenv
